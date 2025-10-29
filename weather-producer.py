@@ -35,7 +35,7 @@ def main():
             logging.info("Produced. Sleeping...")
             time.sleep(10)
 
-
+# Default handler
 if __name__ == "__main__":
   try:
     logging.basicConfig(level="DEBUG")
